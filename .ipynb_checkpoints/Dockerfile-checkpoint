@@ -8,4 +8,5 @@ RUN Rscript -e "install.packages('remotes')"
 #going to install gapminder package, version 1.0.0
 RUN Rscript -e "remotes::install_version('gapminder', '1.0.0')"
 
-#test this docker build by running --> docker build --tag <TEMP_IMAGE_NAME> <PATH_TO_DOCKERFILE_DIRECTORY>
+
+
