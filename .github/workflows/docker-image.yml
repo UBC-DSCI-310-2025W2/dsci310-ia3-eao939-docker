@@ -27,8 +27,8 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag eao939/dsci310-ia3:latest
+      run: docker build . --file Dockerfile --tag eao939/dsci310-ia3-eao939-docker:latest
 
 
     - name: Push the Docker image
-      run: docker push eao939/dsci310-ia3:latest
+      run: docker push eao939/dsci310-ia3-eao939-docker:latest
